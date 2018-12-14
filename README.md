@@ -4,9 +4,9 @@ Send Steam chat messages in bulk to specific friends.
 ## Usage
 Edit `config.json` to add your steam credentials. 
 Start the program, you will need to provide the SteamGuard token in each run.
-For the first run choose to generate a `friends.json` file. Go through your friend list answering `y/n` if you want to include specific people or not as destination for your chat messages. Optionally, add comma separated tags.
+As your first run choose the option to generate a `friends.json` file. Go through your friend list answering `y/n` if you want to include specific people or not as destination for your chat messages. Optionally, add comma separated tags to them.
 
-Your generated friends.json should look like this:
+Now open `friends.json` in a text editor. Your file should look like this:
 
 ```json
 {
@@ -37,7 +37,7 @@ Your generated friends.json should look like this:
 }
 ```
 
-Manually edit the file an add one or more messages in the `Messages` key like so:
+Add one or more messages in the `Messages` key like so:
 
 ```json
 ...

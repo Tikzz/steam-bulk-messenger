@@ -146,7 +146,7 @@ func main() {
 
 	session := steam.NewSession(&http.Client{}, "")
 
-	fmt.Printf("Trying to logging as %s...\n", username)
+	fmt.Printf("Trying to log in as %s...\n", username)
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Print("Enter SteamGuard code: ")
 	twoFactorCodeInput, _ := reader.ReadString('\n')
